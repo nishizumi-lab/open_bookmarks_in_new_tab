@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー - ブックマークを新しいタブで開く</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f9fafb;
+    }
+    .container {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      border: 1px solid #e5e7eb;
+    }
+    h1 {
+      font-size: 24px;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      color: #1f2937;
+    }
+    p {
+      margin-bottom: 16px;
+      font-size: 14px;
+      color: #4b5563;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f3f4f6;
+      font-weight: 600;
+      color: #374151;
+    }
+    .date {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>プライバシーポリシー (Privacy Policy)</h1>
+    <div class="date">最終更新日: 2026年11月1日</div>
+
+    <p>Chrome拡張機能「ブックマークを新しいタブで開く (Open Bookmarks in New Tab)」（以下、「本拡張機能」）は、利用者のプライバシー保護を最優先事項として設計されています。本方針では、本拡張機能におけるデータ等の取扱いについて定めます。</p>
+
+    <h2>1. ユーザーデータの収集および送信</h2>
+    <p>本拡張機能は、ユーザーの個人情報、閲覧履歴、ブックマーク情報、アクセス先URL、入力データなどを外部サーバーへ収集、保存、共有、または送信することは一切ありません。すべての処理は利用者のブラウザ（ローカル環境）内でのみ完結して実行されます。</p>
+
+    <h2>2. 使用する権限とその用途</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>要求する権限</th>
+          <th>利用目的</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>webNavigation</td>
+          <td>ブックマーク経由の画面遷移（transitionType: auto_bookmark）を検知し、新規タブでの展開をトリガーするために使用します。閲覧履歴の収集や外部送信は行いません。</td>
+        </tr>
+        <tr>
+          <td>tabs</td>
+          <td>ブックマーク先URLを新しいタブとして生成し、元のタブを直前のWebページへ復帰させる制御を行うために使用します。</td>
+        </tr>
+        <tr>
+          <td>bookmarks</td>
+          <td>ポップアップ画面内においてブックマーク一覧を表示・検索し、選択したブックマークを新規タブで開くために使用します。</td>
+        </tr>
+        <tr>
+          <td>storage</td>
+          <td>拡張機能の有効化・無効化状態、および新規タブの展開方法（フォアグラウンド/バックグラウンド）の設定値を端末内に保持・同期するために使用します。</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. 第三者への開示</h2>
+    <p>本拡張機能は、いかなるデータも第三者（広告ネットワーク、アナリティクス事業者、データブローカー等）に提供、共有、または販売することはありません。</p>
+
+    <h2>4. リモートコードの不使用</h2>
+    <p>本拡張機能は外部サーバーから動的に読み込まれるスクリプト（リモートコード）を一切使用していません。すべての実行可能コードは拡張機能パッケージ内に同梱されています。</p>
+
+    <h2>5. お問い合わせ</h2>
+    <p>本拡張機能に関するお問い合わせは、GitHubリポジトリのIssuesよりご連絡ください。</p>
+  </div>
+</body>
+</html>
