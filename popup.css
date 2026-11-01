@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  width: 320px;
+  background-color: #f9fafb;
+}
+
+.container {
+  padding: 16px;
+}
+
+.header {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 12px;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.section {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.setting-item:not(:last-child) {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.setting-item label {
+  cursor: pointer;
+  color: #374151;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+#search-input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.bookmark-list {
+  max-height: 160px;
+  overflow-y: auto;
+  border: 1px solid #f3f4f6;
+  border-radius: 4px;
+}
+
+.bookmark-item {
+  display: block;
+  padding: 6px 8px;
+  text-decoration: none;
+  color: #1f2937;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.bookmark-item:hover {
+  background-color: #eff6ff;
+  color: #2563eb;
+}
+
+.footer {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.tip {
+  font-size: 11px;
+  color: #6b7280;
+  line-height: 1.4;
+}
